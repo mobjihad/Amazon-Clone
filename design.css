@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    font-family: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+
+    background-image: url("./Resources/amazon_logo.png");
+    height: 10px;
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border {
+
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+
+    border: 1.5px solid white;
+}
+
+.address {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+
+    display: flex;
+    font-size: 0.9rem;
+
+}
+
+.add-first {
+
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.second-add {
+    margin-left: 3px;
+}
+
+/* search bar */
+.search {
+
+    display: flex;
+    height: 40px;
+    width: 620px;
+    background-color: pink;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search-select {
+
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(255, 162, 0, 0.763);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.account,
+.order {
+
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.search:hover {
+
+    border: 2px solid yellow;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+
+/* 2nd Panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.all-ops p {
+
+    display: inline;
+    margin-left: 10px;
+
+}
+
+.all-ops {
+
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.deals {
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
